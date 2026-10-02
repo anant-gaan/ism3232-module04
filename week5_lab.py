@@ -14,7 +14,7 @@ subtotal = quantity * unit_price
 tax = subtotal * 0.07
 total = subtotal + tax
 requires_approval = total > 1000
-print("=== Purchase request summary ===")
+print("=== Catering Order Summary ===")
 print(f"Item: {item_name}")
 print(f"Status: {status}")
 print(f"Quantity: {quantity}")
